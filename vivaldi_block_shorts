@@ -1,0 +1,6 @@
+! Disable YouTube Shorts (Vivaldi Ad Blocker)
+! Blocks Shorts UI elements and redirects
+youtube.com##ytd-reel-shelf-renderer
+youtube.com##ytd-rich-section-renderer:has(ytd-reel-shelf-renderer)
+youtube.com##ytd-video-renderer:has(a[href*="/shorts/"])
+youtube.com##a[href*="/shorts/"]
